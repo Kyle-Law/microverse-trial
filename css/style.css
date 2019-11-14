@@ -28,3 +28,7 @@ input{
     font-size: 19px;
     padding-left: 10px;
 }
+
+.optional{
+    font-size: smaller;
+}
