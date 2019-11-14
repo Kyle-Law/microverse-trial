@@ -2,6 +2,10 @@ body{
     font-size: 19px;
 }
 
+textarea{
+    font-size: 19px;
+}
+
 h1{
     text-align: center;
 }
@@ -40,4 +44,8 @@ label{
 .radio{
     height: 11px;
     width: 12px;
+}
+
+.checkbox{
+    margin-right: 10px;
 }
