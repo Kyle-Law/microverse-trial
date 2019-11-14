@@ -1,5 +1,7 @@
 body{
     font-size: 19px;
+    background-image: url('../survey-bg-img.jpg');
+    background-size: cover;
 }
 
 textarea{
