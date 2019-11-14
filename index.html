@@ -25,12 +25,42 @@
     <h1>Kyle and Carlos survey form</h1>
     <h3>Thank you for taking the time to help us improve the platform</h3>
     <div class="container">
-      <label for="name">Name</label>
-      <input type="text" id="name" placeholder="Enter your name">
-      <label for="email">eMail</label>
-      <input type="email" id="email" placeholder="Enter your email">
-      <label for="age">Age</label><label class="optional">(Optional))</label>
-      <input type="number" id="age" placeholder="Enter your age">
+      <form>
+        <label for="name">Name</label>
+        <input class="input" type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input class="input" type="email" id="email" placeholder="Enter your email">
+
+        <label for="age">Age</label><label class="optional">(Optional))</label>
+        <input class="input" type="number" id="age" placeholder="Enter your age">
+        
+        <label for="role">Which option best describes your current role?</label>
+        <input class="input" type="list" list="role" placeholder="Select current role">
+        <datalist id="role">
+          <option value="Student">
+          <option value="Full Time Job">
+          <option value="Full time Learner">
+          <option value="Prefer not to say">
+          <option value="Other">
+        </datalist>
+
+        <label for="recommend">Would you recommend freeCodeCamp to a friend?<br></label>
+        <input class="radio" type="radio" name="recommend" value="definitely">Definitely <br>
+        <input class="radio" type="radio" name="recommend" value="maybe">Maybe <br>
+        <input class="radio" type="radio" name="recommend" value="notsure">Not sure <br><br><br>
+
+        <label for="feature">What is your favorite feature of freeCodeCamp?</label>
+        <input class="input" type="list" list="feature" placeholder="Select an option">
+        <datalist id="feature">
+          <option value="Challenges">
+          <option value="Projects">
+          <option value="Community">
+          <option value="Open Source">
+        </datalist>
+
+
+      </form>
     </div>
     <script  src="js/index.js"></script>
   </body>

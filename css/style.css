@@ -1,3 +1,6 @@
+body{
+    font-size: 19px;
+}
 
 h1{
     text-align: center;
@@ -8,7 +11,7 @@ h3{
 }
 .container{
     width:54%;
-    height:400px;
+    height:100%;
     background-color: black;
     margin: 0 auto;
     border-radius: 3px;
@@ -20,15 +23,21 @@ label{
     font-size: 19px;
 }
 
-input{
+.input{
     width: 100%;
     border-radius: 3px;
     height: 30px;
     margin-top: 10px;
     font-size: 19px;
     padding-left: 10px;
+    margin-bottom: 30px;
 }
 
 .optional{
     font-size: smaller;
+}
+
+.radio{
+    height: 11px;
+    width: 12px;
 }
